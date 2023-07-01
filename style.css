@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+    color: orange;
+}
+
+.container {
+    margin: 2rem auto;
+    box-sizing: border-box;
+    display: grid;
+    background-color: brown;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+    grid-gap: 0.8rem 0.8rem;
+    width: fit-content;
+}
+
+.item {
+    background-color: #000;
+}
+
+.item-selected {
+    
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    content: "x"; /* use the hex value here... */
+    font-size: 50px; 
+    color: yellow;
+    line-height: 7rem;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+#msg {
+    text-align: center;
+}
